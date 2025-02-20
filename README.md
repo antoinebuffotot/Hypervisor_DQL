@@ -1,3 +1,9 @@
+![image](https://github.com/user-attachments/assets/28bd66ba-767b-431b-8c6d-c3fdea51b965)
+
+![image](https://github.com/user-attachments/assets/754ac0ca-e96b-41f3-abd9-ddb7cce166ca)
+
+![image](https://github.com/user-attachments/assets/4f60ade2-ad2b-4574-a363-aec50f1e413e)
+
 # Objectives:
 These are Hypervisor type dashboards to understand the health of monitred applications displayed as a traffic light.
 The project has 2 levels of information :
