@@ -22,13 +22,13 @@ This project contains 3 dashboards:
   * Traffic light displaying the health of the application and related entities based on Problems
  
 * Hypervisor Level 0 & 1 (based on indicators) => thresholds to be adjusted 
-  * Traffic light displaying the health of the application and related entities based on indicators and thresholds :
-    * Host : CPU usage : green <50%, orange <95%, red | Memory usage : green <50%, orange <95%, red 
-    * Service : Availability (based on Failure rate) : green >98%, orange >90%, red
-    * Database Service : Availability (based on Failure rate) : green >98%, orange >90%, red
-    * Server : Availability : green >98%, orange >90%, red
-    * Process : Availability : green >98%, orange >90%, red
-    * Synthetic (HTTP monitors only) : Availability : green >98%, orange >90%, red
+  * Traffic light displaying the health of the application and related entities based on indicators and thresholds to be selected as Variables:
+    * Host : CPU usage : default values green <50%, orange <95%, red | Memory usage : green <50%, orange <95%, red 
+    * Service : Availability (based on Failure rate) : default values green >98%, orange >90%, red
+    * Database Service : Availability (based on Failure rate) : default values green >98%, orange >90%, red
+    * Server : Availability : default values green >98%, orange >90%, red
+    * Process : Availability : default values green >98%, orange >90%, red
+    * Synthetic (HTTP monitors only) : Availability : default values green >98%, orange >90%, red
 * Hypervisor Level 0 (based on indicators)
   * Traffic light displaying the health of the applications => thresholds and tiles to be adjusted (add or remove), depending on the monitored applications
 
@@ -37,4 +37,7 @@ Steps to deploy the Hypervisor dashboard
 * Step 1 : download the JSON file
 * Step 2 : upload to your Dynatrace environnement
 * Step 3 : adapt the dashboard depending on the monitored applications especially Hypervisor Level 0
-* Step 4 : adapt the thresholds for the Hypervisor dashboards based on indicators => modification of the thresholds in the DQL queries
+* Step 4 : adapt the thresholds for the Hypervisor dashboards based on indicators => modification of the Dashboard variables, display them and select the values 
+
+
+![image](https://github.com/user-attachments/assets/9bda8e2a-5965-4312-80ca-19f344f5b9ee)
